@@ -1,4 +1,4 @@
-import { blue, cyan, green, lightGreen, yellow } from 'kolorist'
+import { blue, cyan, green, lightGreen, yellow, magenta } from 'kolorist'
 
 export const FRAMEWORKS = [
   {
@@ -32,6 +32,11 @@ export const FRAMEWORKS = [
         name: 'vue',
         display: 'JavaScript',
         color: yellow
+      },
+      {
+        name: 'vue-elePlus',
+        display: 'element-plus',
+        color: magenta
       },
       {
         name: 'custom-create-vue',
